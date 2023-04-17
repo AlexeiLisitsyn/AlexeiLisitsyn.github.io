@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale =1.0">
+    <title>Responsive Personal Portfolio Website Design</title>
+
+    <!--    box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--    custom css-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!--    header design-->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+        </nav>
+    </header>
+
+    <!--    home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's me</h3>
+            <h1>Alexei Lisitsyn</h1>
+            <h3>And I'm <span class="multiple-text"></span></h3>
+            <p>My goal is to obtain a junior developer/data analyst position in a dynamic organization where I can apply
+                my passion for programming and potential to learn quickly and grow in the field.</p>
+            <div class="social-media">
+                <a href="https://github.com/AlexeiLisitsyn" target='_blank'><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/alexeilisitsyn/" target='_blank'><i class='bx bxl-linkedin' ></i></a>
+            </div>
+            <a href="CV Alexei Lisitsyn.docx" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="images/profile.png" alt="">
+        </div>
+    </section>
+
+    <!--    about section design-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/profile.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Junior Programmer</h3>
+            <p> I have strong interest in the Data Analyst and Junior Developer position as a highly motivated and
+                enthusiastic individual, I am passionate about pursuing a career in the IT field, and I believe that
+                I would make a valuable addition to any team.</p>
+
+            <p> I completed <span>VILNIUS CODING SCHOOL: “Python Fundamentals Course”</span> and also course on "Udemy"
+                platform <span>"100 Days of Code: The Complete Python Pro Bootcamp for 2023"</span>. My programming
+                skills include proficiency in Python and along with some experience in web development using HTML, CSS.</p>
+
+            <p> I am a quick learner and enjoy taking on new challenges, whether it's learning a new programming
+                language or working on a complex project. I have also developed excellent problem-solving and analytical
+                skills, which I believe are essential for success in the IT industry.</p>
+
+            <p>Additionally, I am a team player and have excellent communication skills. I am comfortable collaborating
+                with colleagues, sharing ideas and knowledge, and contributing to a positive and productive work
+                environment</p>
+        </div>
+    </section>
+
+    <!--    portfolio section design-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/PasswordManager.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Password Manager</h4>
+                    <p>Application designed to store your credentials.</p>
+                    <a href="https://github.com/AlexeiLisitsyn/Password_Manager-Project-for-exam-" target='_blank'><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/CrossTheRoad.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>"Cross The Road" game</h4>
+                    <p>The game designed with Python language using 'turtle' library</p>
+                    <a href="https://github.com/AlexeiLisitsyn/Cross_The_Road_Game" target='_blank'><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/MorseCode.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Morse Code</h4>
+                    <p>A simple text-based Python program to convert Strings into Morse Code and vica versa.</p>
+                    <a href="" target='_blank'><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/SnakeGame.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Snake game</h4>
+                    <p>The game designed with Python language using 'turtle' library</p>
+                    <a href="https://github.com/AlexeiLisitsyn/Snake_Game_withScore" target='_blank'><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/StatesMap.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Remember U.S.States</h4>
+                    <p>The game designed with Python language using 'turtle' library</p>
+                    <a href="https://github.com/AlexeiLisitsyn/RememberStates" target='_blank'><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--    footer design-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Alexei Lisitsyn</p>
+        </div>
+        
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+    </footer>
+
+    <!--    scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--    typed js-->
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+
+    <!--    custom js-->
+    <script src="js/script.js"></script>
+</body>
+</html>
